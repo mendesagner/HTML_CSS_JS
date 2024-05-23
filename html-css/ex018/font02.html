@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'batt';
+            src: url(fonts/Battipaglia.otf) format('opentype') ,url(fonts/Battipaglia.ttf) format('truetype');
+            font-weight:  normal;
+            font-style: normal;
+            /*tipos de format()
+            -opentype (otf)
+            -truetype (ttf)
+            -embed-opentype 
+            -truetype-aat(Apple Advanced typography)
+            -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        h1{
+            font-family: 'batt';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At autem voluptatem necessitatibus repellat, fugiat dolore laborum odio architecto qui minima? Est porro facilis cupiditate minima corrupti sint ullam animi mollitia!</p>
+</body>
+</html>
