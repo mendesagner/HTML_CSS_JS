@@ -4,7 +4,7 @@ print("{} < antecessor {} sucessor > {}".format(n1-1,n1,n1+1) )
 
 #Crie um algoritimo que leia um numero e mostre seu dobro,triplo, e raiz quadrada
 valor = int(input("digite um valor: "))
-print("valor incial: {} \nseu dobro:{} \nseu triplo:{} \nsua raiz quarada:{} ".format(valor,valor*2,valor*3,valor**2))
+print("valor incial: {} \nseu dobro:{} \nseu triplo:{} \nsua raiz quarada:{} ".format(valor,valor*2,valor*3,valor**(1/2)))
 
 #Desenvolva um programa que leia duas notas de um aluno e mostre sua media
 
