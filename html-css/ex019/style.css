@@ -18,3 +18,20 @@ h1{
 h2{
     color: rgb(90, 58, 119);
 }
+
+.basico{
+    color: rgb(45, 122, 109);
+}
+
+.intermediario{
+    color: rgb(44, 58, 119);
+}
+
+.avançado{
+    color: rgb(128, 43, 109);
+}
+
+.destaque{
+    background-color: rgb(130, 233, 199); 
+    font-weight: bold;
+}
